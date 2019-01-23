@@ -4,7 +4,7 @@
 
 Install all the dependencies executing::
 
-```
+```console
 $ npm install
 $ sudo npm link
 ``` 
@@ -15,7 +15,7 @@ $ sudo npm link
 
 Set dead by captcha credentials in `./config/settings.js` like the example below:
 
-```
+```javascript
 {
   ...,
   captcha: {
@@ -31,7 +31,7 @@ Set dead by captcha credentials in `./config/settings.js` like the example below
 
 Set prenota information in `./config/account.js` like the example below:
 
-```
+```javascript
 {
   username: '<PrenotaUsername>',
   password: '<PrenotaPassword>',
@@ -47,6 +47,6 @@ Important: the current version is only ready to work using accounts belonging to
 
 After setting the config files, execute:
 
-```
+```console
 $ robot
 ```
