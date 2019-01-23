@@ -9,7 +9,7 @@ $ npm install
 $ sudo npm link
 ``` 
 
-## Requisites
+## Settings
 
 ### Dead by captcha credentials
 
@@ -27,9 +27,9 @@ Set dead by captcha credentials in `./config/settings.js` like the example below
 }
 ``` 
 
-### Prenota credentials
+### Account Details
 
-Set prenota information in `./config/account.js` like the example below:
+Set prenota data in `./config/account.js` like the example below:
 
 ```javascript
 {
