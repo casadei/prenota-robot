@@ -20,6 +20,10 @@ module.exports = {
     password: '<DeadByCaptchaPassword>'
   },
 
+  waitUntil: '22:59:55',
+  maxWaitingTime: 300000,
+  minWaitingTime: 0,
+
   consulates: {
     beloHorizonte: {
       code: 100068,
