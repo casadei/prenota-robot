@@ -11,13 +11,14 @@ module.exports = {
   messages: {
     invalidCaptcha: 'Código de confirmação errado',
     invalidUsername: 'Utente inexistente',
-    invalidPassword: 'Password incorreta'
+    invalidPassword: 'Password incorreta',
+    securityLogout: 'Por motivos de segurança , você foi desconectado desta conta'
   },
 
   captcha: {
     uri: 'http://api.dbcapi.me/api/captcha',
-    user: '<DeadByCaptchaUsername>',
-    password: '<DeadByCaptchaPassword>'
+    user: '<DeathByCaptchaUsername>',
+    password: '<DeathByCaptchaPassword>'
   },
 
   waitUntil: '22:59:55',
@@ -41,8 +42,8 @@ module.exports = {
         citizenship: {
           label: 'CIDADANIA POR DESCENDENCIA',
           fields: [
-            '#ctl00_ContentPlaceHolder1_acc_datiAddizionali1_mycontrol1', 
-            '#ctl00_ContentPlaceHolder1_acc_datiAddizionali1_mycontrol2', 
+            '#ctl00_ContentPlaceHolder1_acc_datiAddizionali1_mycontrol1',
+            '#ctl00_ContentPlaceHolder1_acc_datiAddizionali1_mycontrol2',
             '#ctl00_ContentPlaceHolder1_acc_datiAddizionali1_txtNote'
           ]
         },
@@ -51,7 +52,7 @@ module.exports = {
           label: 'VISTOS',
           fields: ['#ctl00_ContentPlaceHolder1_acc_datiAddizionali1_txtNote']
         }
-      } 
+      }
     }
   }
 };
