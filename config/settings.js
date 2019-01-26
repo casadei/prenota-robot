@@ -12,7 +12,6 @@ module.exports = {
     invalidCaptcha: 'Código de confirmação errado',
     invalidUsername: 'Utente inexistente',
     invalidPassword: 'Password incorreta',
-    securityLogout: 'Por motivos de segurança , você foi desconectado desta conta'
   },
 
   captcha: {
