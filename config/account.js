@@ -1,4 +1,4 @@
-module.exports = { 
+module.exports = {
   username: '<PrenotaUsername>',
   password: '<PrenotaPassword>',
   consulate: 'beloHorizonte',
