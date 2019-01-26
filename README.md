@@ -20,8 +20,8 @@ Set dead by captcha credentials in `./config/settings.js` like the example below
   ...,
   captcha: {
     uri: 'http://api.dbcapi.me/api/captcha',
-    user: '<DeadByCaptchaUsername>',
-    password: '<DeadByCaptchaPassword>'
+    user: '<DeathByCaptchaUsername>',
+    password: '<DeathByCaptchaPassword>'
   },
   ...
 }
