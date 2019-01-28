@@ -11,9 +11,9 @@ $ sudo npm link
 
 ## Settings
 
-### Dead by captcha credentials
+### Death by captcha credentials
 
-Set dead by captcha credentials in `./config/settings.js` like the example below:
+Set death by captcha credentials in `./config/settings.js` like the example below:
 
 ```javascript
 {
