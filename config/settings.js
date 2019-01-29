@@ -27,8 +27,8 @@ module.exports = {
 
   captcha: {
     uri: 'http://api.dbcapi.me/api/captcha',
-    user: '<DeathByCaptchaUsername>',
-    password: '<DeathByCaptchaPassword>',
+    user: process.env.DH_CAPTCHA_USER,
+    password: process.env.DH_CAPTCHA_PASSWORD,
     retryOptions: {
       retries: 20,
       factor: 1,

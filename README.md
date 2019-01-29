@@ -13,18 +13,11 @@ $ sudo npm link
 
 ### Death by captcha credentials
 
-Set death by captcha credentials in `./config/settings.js` like the example below:
+Set death by captcha credentials in `.env` like the example below:
 
-```javascript
-{
-  ...,
-  captcha: {
-    uri: 'http://api.dbcapi.me/api/captcha',
-    user: '<DeathByCaptchaUsername>',
-    password: '<DeathByCaptchaPassword>'
-  },
-  ...
-}
+```console
+DH_CAPTCHA_USER=DeathByCaptchaUsername
+DH_CAPTCHA_PASSWORD=DeathByCaptchaPassword
 ```
 
 ### Tracking files
