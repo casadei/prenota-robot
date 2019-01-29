@@ -6,6 +6,16 @@ module.exports = {
     launchOptions: {
       headless: true,
       ignoreHTTPSErrors: true
+    },
+
+    navigationOptions: {
+      timeout: 15000,
+      waitUntil: 'load'
+    },
+
+    retryOptions: {
+      minTimeout: 1500,
+      factor: 1
     }
   },
 
@@ -18,7 +28,12 @@ module.exports = {
   captcha: {
     uri: 'http://api.dbcapi.me/api/captcha',
     user: '<DeathByCaptchaUsername>',
-    password: '<DeathByCaptchaPassword>'
+    password: '<DeathByCaptchaPassword>',
+    retryOptions: {
+      retries: 20,
+      factor: 1,
+      minTimeout: 1500
+    }
   },
 
   waitUntil: '22:59:55',
