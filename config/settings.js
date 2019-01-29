@@ -1,9 +1,10 @@
 module.exports = {
   debugMode: true,
+  trackPath: `/tmp`,
 
   browser: {
     launchOptions: {
-      headless: false,
+      headless: true,
       ignoreHTTPSErrors: true
     }
   },
