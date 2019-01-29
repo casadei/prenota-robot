@@ -10,7 +10,7 @@ module.exports = {
 
     navigationOptions: {
       timeout: 15000,
-      waitUntil: 'load'
+      waitUntil: 'domcontentloaded'
     },
 
     retryOptions: {
