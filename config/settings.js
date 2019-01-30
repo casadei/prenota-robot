@@ -31,7 +31,7 @@ module.exports = {
     user: process.env.DH_CAPTCHA_USER,
     password: process.env.DH_CAPTCHA_PASSWORD,
     retryOptions: {
-      retries: 20,
+      retries: 30,
       factor: 1,
       minTimeout: 1500
     }
