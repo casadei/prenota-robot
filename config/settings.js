@@ -4,9 +4,9 @@ module.exports = {
 
   browser: {
     launchOptions: {
-      headless: false,
+      headless: true,
       ignoreHTTPSErrors: true,
-      args: [ '--ignore-certificate-errors', '--ignore-certificate-errors-spki-list' ]
+      args: [ '--ignore-certificate-errors' ]
     },
 
     navigationOptions: {
