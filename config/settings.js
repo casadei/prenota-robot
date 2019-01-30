@@ -19,7 +19,7 @@ module.exports = {
     },
 
     navigationOptions: {
-      timeout: 5000,
+      timeout: 20000,
       waitUntil: 'load'
     },
 
