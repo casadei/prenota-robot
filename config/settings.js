@@ -1,7 +1,15 @@
 module.exports = {
   debugMode: true,
-  trackPath: `/tmp`,
   logLevel: 'debug',
+
+  aws: {
+    bucket: process.env.AWS_BUCKET,
+    key: process.env.AWS_KEY,
+    secret: process.env.AWS_SECRET,
+    region: 'eu-west-3',
+    captchaSolvedCorrectlySqs: 'https://sqs.eu-west-3.amazonaws.com/565384488892/correctCaptchas',
+    captchaSolvedIncorrectlySqs: 'https://sqs.eu-west-3.amazonaws.com/565384488892/incorrectCaptchas'
+  },
 
   browser: {
     launchOptions: {

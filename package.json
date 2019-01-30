@@ -9,13 +9,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "aws-sdk": "^2.395.0",
     "dotenv": "^6.2.0",
     "promise-retry": "^1.1.1",
     "puppeteer": "^1.11.0-next.1548707281525",
     "request": "^2.88.0",
     "request-promise": "^4.2.2",
     "uuid": "^3.3.2",
-    "winston": "^3.2.1"
+    "winston": "^3.2.1",
+    "winston-aws-cloudwatch": "^3.0.0"
   },
   "bin": {
     "robot": "./lib/cli.js"
