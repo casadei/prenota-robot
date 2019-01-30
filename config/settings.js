@@ -1,6 +1,7 @@
 module.exports = {
   debugMode: true,
   trackPath: `/tmp`,
+  logLevel: 'debug',
 
   browser: {
     launchOptions: {

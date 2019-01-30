@@ -14,7 +14,8 @@
     "puppeteer": "^1.11.0-next.1548707281525",
     "request": "^2.88.0",
     "request-promise": "^4.2.2",
-    "uuid": "^3.3.2"
+    "uuid": "^3.3.2",
+    "winston": "^3.2.1"
   },
   "bin": {
     "robot": "./lib/cli.js"
