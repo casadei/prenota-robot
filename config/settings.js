@@ -25,7 +25,7 @@ module.exports = {
 
     retryOptions: {
       retries: 50,
-      minTimeout: 1500,
+      minTimeout: 2500,
       factor: 1
     }
   },
